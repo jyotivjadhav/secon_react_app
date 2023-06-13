@@ -1,11 +1,16 @@
 // PURE HTML :: DUMB
 // JSX :: RETURN HTML :: THIS IS SMART
 function App() {
-  let jsx1 = <h1>Good Morning</h1>;
-  let jsx2 = <h1>Good Night</h1>;
-
-  return true ? jsx1 : jsx2;
- 
+  return (
+    <>
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, minima
+        earum exercitationem distinctio consectetur sit illo fugiat rem quaerat
+        cupiditate dicta quidem debitis iste aut maiores? Amet corrupti debitis
+        suscipit.
+      </h1>
+    </>
+  );
 }
 
 export default App;
