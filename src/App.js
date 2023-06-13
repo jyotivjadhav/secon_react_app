@@ -1,4 +1,4 @@
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
 
 /**
  * Bcause 'class' is a keyword in JS.
@@ -6,9 +6,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1 className="beautiful">Hello World</h1>
-
-      <h1 style={{ color: "red" }}>Hello</h1>
+      <h1 className="bg-primary text-light p-3">Hello World</h1>
     </>
   );
 }
