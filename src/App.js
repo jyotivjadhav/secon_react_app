@@ -1,9 +1,10 @@
-//jsx
-
+// PURE HTML :: DUMB
+// JSX :: RETURN HTML :: THIS IS SMART
 function App() {
-  // JSX
-    let jsx1 = <h1>Hello Universe</h1>;
-    return jsx1;
+  let jsx1 = <h1>Good Morning</h1>;
+  let jsx2 = <h1>Good Night</h1>;
+
+  return true ? jsx1 : jsx2;
  
 }
 
